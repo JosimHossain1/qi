@@ -1,113 +1,106 @@
-import Image from 'next/image'
+// Class 1
+import class1Bangla from "@/im/book_cover/class 1/class_1_bangla.png";
+import class1English from "@/im/book_cover/class 1/class_1_english.png";
+import class1Math from "@/im/book_cover/class 1/class_1_math.png";
+// Class 2
+import class2Bangla from "@/im/book_cover/class 2/class_2_bangla.png";
+import class2English from "@/im/book_cover/class 2/class_2_english.png";
+import class2Math from "@/im/book_cover/class 2/class_2_bangla.png";
+
+// Class 3
+import class3Bangla from "@/im/book_cover/class 3/class_3_bangla.png";
+import class3English from "@/im/book_cover/class 3/class_3_english.png";
+import class3Math from "@/im/book_cover/class 3/class_3_math.png";
+import class3science from "@/im/book_cover/class 3/class_3_science.png";
+import class3gbs from "@/im/book_cover/class 3/class_3_gbs.png";
+import class3islam from "@/im/book_cover/class 3/class_3_islam.png";
+import class3hindu from "@/im/book_cover/class 3/class_3_hindu.png";
+import class3buddha from "@/im/book_cover/class 3/class_3_buddha.png";
+import class3cristian from "@/im/book_cover/class 3/class_3_cristian.png";
+
+// Class 4
+import class4Bangla from "@/im/book_cover/class 4/class_4_bangla.png";
+import class4English from "@/im/book_cover/class 4/class_4_english.png";
+import class4Math from "@/im/book_cover/class 4/class_4_math.png";
+import class4science from "@/im/book_cover/class 4/class_4_science.png";
+import class4gbs from "@/im/book_cover/class 4/class_4_bgs.png";
+import class4islam from "@/im/book_cover/class 4/class_4_islam.png";
+import class4hindu from "@/im/book_cover/class 4/class_4_hindu.png";
+import class4buddha from "@/im/book_cover/class 4/class_4_buddha.png";
+import class4cristian from "@/im/book_cover/class 4/class_4_cristian.png";
+
+// Class 5
+
+import class5Bangla from "@/im/book_cover/class 5/class_5_bangla.png";
+import class5English from "@/im/book_cover/class 5/class_5_english.png";
+import class5Math from "@/im/book_cover/class 5/class_5_math.png";
+import class5science from "@/im/book_cover/class 5/class_5_science.png";
+import class5gbs from "@/im/book_cover/class 5/class_5_bgs.png";
+import class5islam from "@/im/book_cover/class 5/class_5_islam.png";
+import class5hindu from "@/im/book_cover/class 5/class_5_hindu.png";
+import class5buddha from "@/im/book_cover/class 5/class_5_buddha.png";
+import class5cristian from "@/im/book_cover/class 5/class_5_cristian.png";
+
+import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">app/page.js</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
+    <main className=" space-y-3">
+      {/* Class 1 */}
+      <h1>Class 1</h1>
+      <div className="grid grid-cols-9">
+        <Image src={class1Bangla} alt="" />
+        <Image src={class1English} alt="" />
+        <Image src={class1Math} alt="" />
       </div>
 
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
+      {/* Class 2 */}
+      <h1>Class 2</h1>
+      <div className="grid grid-cols-9">
+        <Image src={class2Bangla} alt="" />
+        <Image src={class2English} alt="" />
+        <Image src={class2Math} alt="" />
       </div>
 
-      <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800 hover:dark:bg-opacity-30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Explore the Next.js 13 playground.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
+      {/* Class 3 */}
+      <h1>Class 3</h1>
+      <div className="grid grid-cols-9">
+        <Image src={class3Bangla} alt="" />
+        <Image src={class3English} alt="" />
+        <Image src={class3Math} alt="" />
+        <Image src={class3science} alt="" />
+        <Image src={class3gbs} alt="" />
+        <Image src={class3islam} alt="" />
+        <Image src={class3hindu} alt="" />
+        <Image src={class3buddha} alt="" />
+        <Image src={class3cristian} alt="" />
+      </div>
+      {/* Class 4 */}
+      <h1>Class 4</h1>
+      <div className="grid grid-cols-9">
+        <Image src={class4Bangla} alt="" />
+        <Image src={class4English} alt="" />
+        <Image src={class4Math} alt="" />
+        <Image src={class4science} alt="" />
+        <Image src={class4gbs} alt="" />
+        <Image src={class4islam} alt="" />
+        <Image src={class4hindu} alt="" />
+        <Image src={class4buddha} alt="" />
+        <Image src={class4cristian} alt="" />
+      </div>
+      {/* Class 5 */}
+      <h1>Class 5</h1>
+      <div className="grid grid-cols-9">
+        <Image src={class5Bangla} alt="" />
+        <Image src={class5English} alt="" />
+        <Image src={class5Math} alt="" />
+        <Image src={class5science} alt="" />
+        <Image src={class5gbs} alt="" />
+        <Image src={class5islam} alt="" />
+        <Image src={class5hindu} alt="" />
+        <Image src={class5buddha} alt="" />
+        <Image src={class5cristian} alt="" />
       </div>
     </main>
-  )
+  );
 }
