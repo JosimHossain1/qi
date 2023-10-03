@@ -5,7 +5,7 @@ import class1Math from "@/im/book_cover/class 1/class_1_math.png";
 // Class 2
 import class2Bangla from "@/im/book_cover/class 2/class_2_bangla.png";
 import class2English from "@/im/book_cover/class 2/class_2_english.png";
-import class2Math from "@/im/book_cover/class 2/class_2_bangla.png";
+import class2Math from "@/im/book_cover/class 2/class_2_math.png";
 
 // Class 3
 import class3Bangla from "@/im/book_cover/class 3/class_3_bangla.png";
